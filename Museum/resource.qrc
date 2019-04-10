@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>qml/CoverFlow.qml</file>
+        <file>qml/Main.qml</file>
+        <file>qml/MyDelegate.qml</file>
+        <file>qss/blackstyle.qss</file>
+        <file>qss/whitestyle.qss</file>
+    </qresource>
+</RCC>

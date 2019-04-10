@@ -1,0 +1,361 @@
+/*******************按钮***********************/
+/*按钮默认字体*/
+QPushButton
+{
+font-size: 15px;
+color: #5cdbd3;
+background-color: #002329;
+}
+/*用户菜单栏按钮*/
+QPushButton#pushButton_list
+{
+font-size: 20px;
+background-color: #002329;
+}
+QPushButton#pushButton_pics
+{
+font-size: 20px;
+background-color: #002329;
+}
+QPushButton#pushButton_userset
+{
+font-size: 20px;
+background-color: #002329;
+}
+/*关闭按钮*/
+QPushButton#pushButton_close
+{
+font-size: 20px;
+background-color: #002329;
+color: white;
+border: 1px solid #002329;
+}
+QPushButton#pushButton_close:hover
+{
+background-color: #5a5a5a;
+color: red;
+}
+QPushButton#pushButton_close:pressed
+{
+background-color: black;
+color: red;
+}
+/*缩小按钮*/
+QPushButton#pushButton_min
+{
+font-size: 20px;
+background-color: #002329;
+color: white;
+border: 1px solid #002329;
+}
+QPushButton#pushButton_min:hover
+{
+background-color: #5a5a5a;
+}
+QPushButton#pushButton_min:pressed
+{
+background-color: black;
+}
+
+
+/*设置按钮*/
+QPushButton#pushButton_update_user_icon
+{
+font-size: 15px;
+}
+QPushButton#pushButton_userlogout:hover
+{
+color: red;
+}
+QPushButton#pushButton_adminlogout:hover
+{
+color: red;
+}
+/*登录按钮*/
+QPushButton#pushButton_confirm
+{
+font-size: 15px;
+}
+QPushButton#pushButton_admin_confirm
+{
+font-size: 15px;
+}
+/*取消按钮*/
+QPushButton#pushButton_cancel
+{
+font-size: 15px;
+}
+/*注册按钮*/
+QLabel#label_register:hover
+{
+color: blue;
+font-weight: bold;
+}
+/*管理员登录按钮*/
+QLabel#label_admin:hover
+{
+color: blue;
+font-weight: bold;
+}
+/*管理员返回按钮*/
+QLabel#label_return:hover
+{
+color: blue;
+font-weight: bold;
+}
+
+
+
+
+/******************Widget*********************/
+
+QFrame
+{
+background-color: #00474f;
+}
+
+QWidget#page_user_datashow
+{
+background-color: #00474f;
+}
+QWidget#page_user_update
+{
+background-color: #00474f;
+}
+
+/*标题栏*/
+QWidget#widget_title
+{
+background-color: #002329;
+border-left: 1px solid #014F84;
+border-right: 1px solid #014F84;
+border-top: 1px solid #014F84;
+}
+/*状态栏*/
+QStatusBar
+{
+background-color: #002329;
+border-left: 1px solid #014F84;
+border-right: 1px solid #014F84;
+border-bottom: 1px solid #014F84;
+}
+/*内容框*/
+QWidget#widget_content
+{
+background-color: #00474f;
+border-left: 1px solid #014F84;
+border-right: 1px solid #014F84;
+}
+/*菜单栏*/
+QWidget#widget_menu
+{
+background-color: #092b00;
+}
+QStackedWidget#stackedWidget_menu
+{
+background-color: #092b00;
+}
+/*人物列表*/
+QTableWidget
+{
+font-family: "黑体";
+font-size: 15px;
+alternate-background-color: #092b00;
+color: #5cdbd3;
+border: 1px solid #5cdbd3;
+}
+
+QHeaderView
+{
+font-size: 15px;
+color: white;
+}
+QTabWidget::tab-bar
+{
+left: 20px;
+}
+QTabWidget::pane
+{
+border: 2px solid #5cdbd3;
+}
+QTabBar::tab
+{
+background:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                            stop: 0 #002329, stop: 0.4 #00474f,
+                            stop: 0.5 #00474f, stop: 1.0 #002329);
+color: #5cdbd3;
+border: 2px solid #002329;
+border-bottom-color: #5cdbd3;
+border-top-left-radius:4px;
+border-top-right-radius: 4px;
+min-width: 40px;
+min-height: 30px;
+padding: 2px;
+font-size:15px;
+}
+QTabBar::tab:selected
+{
+background:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                            stop: 0 #002329, stop: 0.4 #002329,
+                            stop: 0.5 #00474f, stop: 1.0 #00474f);
+
+/*background: #00474f;*/
+border-color: #092b00;
+color: white;
+}
+
+
+
+/**************************提示框**********************/
+QLabel#label_tip
+{
+font-size: 30px;
+font-family: "黑体";
+color: #5cdbd3;
+}
+QLabel#label_info
+{
+font-size: 30px;
+font-family: "黑体";
+color: #5cdbd3;
+}
+QFrame#frame_tool
+{
+background-color: #002329;
+border: 1px solid #014F84;
+}
+QWidget#widget_warninfo
+{
+background-color: #00474f;
+}
+
+
+
+/*******************Label**********************/
+/*Label字体*/
+QLabel
+{
+font-size: 15px;
+color: #5cdbd3;
+}
+/*登录标题*/
+QLabel#label_login_title
+{
+background-color: #002329;
+font-family: "楷体";
+font-size: 50px;
+font-weight: bold;
+color: white;
+}
+/*主界面标题*/
+QLabel#label_main_title
+{
+background-color: #002329;
+font-family: "楷体";
+font-size: 35px;
+font-weight: bold;
+color: white;
+}
+QLabel#label_main_title:hover
+{
+color: #006d75;
+}
+/*欢迎词*/
+QLabel#label_welcome
+{
+font-family: "楷体";
+font-size: 25px;
+font-weight: bold;
+color: #5cdbd3;
+}
+/*详细介绍标题*/
+QLabel#label_showdata_title
+{
+background-color: #919191;
+font-family: "楷体";
+font-size: 20px;
+font-weight: bold;
+color: #5cdbd3;
+}
+QLabel#label_showdata_title
+{
+background-color: #002329;
+}
+/*介绍内容*/
+QLabel#label_describe
+{
+font-size: 20px;
+}
+
+
+/*工具框*/
+QToolBox::tab
+{
+font-size: 15px;
+color: #5cdbd3;
+/*background-color: black;*/
+}
+/*编辑框*/
+QLineEdit
+{
+border: 1px solid #5cdbd3;
+border-radius: 3px;
+background: #006d75;
+font-size: 15px;
+color: white;
+}
+QTextEdit
+{
+border: 1px solid #5cdbd3;
+border-radius: 3px;
+background: #006d75;
+font-size: 20px;
+}
+/*groupbox字体*/
+QGroupBox
+{
+font-size: 15px;
+color: #5cdbd3;
+}
+
+/*性别选项*/
+QRadioButton
+{
+font-size: 15px;
+color: #5cdbd3;
+}
+/*下拉框*/
+QComboBox
+{
+background: #00474f;
+color: #5cdbd3;
+}
+/*滚动条*/
+QScrollBar:vertical
+{
+background: #006d75;
+border: 1px solid #5cdbd3;
+/*margin: 0px,0px,0px,0px;*/
+padding-top: 14px;
+padding-bottom: 14px;
+}
+QScrollBar::handle:vertical
+{
+/*width: 16px;*/
+min-height: 40;
+background: #5cdbd3;
+}
+QScrollBar:horizontal
+{
+background: #006d75;
+border: 1px solid #5cdbd3;
+padding-left: 12px;
+padding-right: 12px;
+}
+QScrollBar::handle:horizontal
+{
+min-width: 40;
+background: #5cdbd3;
+}
+
+
